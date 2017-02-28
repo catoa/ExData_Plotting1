@@ -28,8 +28,7 @@ legend("topright",
        legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), 
        col= c("black", "red", "blue"), 
        lty = 1,
-       bty = "n",
-       cex = 0.65)
+       bty = "n")
 
 plot(power$Timestamps, power$Global_reactive_power,
      type = "l", xlab = "datetime",
